@@ -88,7 +88,7 @@ img#homes {max-width: 150%;height: auto;object-fit: cover;overflow: hidden;float
 
 /* BeeLocal */
 
-.projectBeeL {display: grid;grid-template-columns: 1fr 1fr;grid-area: projectBLImage projectBLBody;background-color:rgba(253, 180, 44, 75%);min-height: 1000px;}
+.projectBeeL {display: grid;grid-template-columns: 1fr 1fr;grid-area: projectBLImage projectBLBody;background-color:rgba(253, 180, 44, 75%);min-height: 1000px;;}
 .projectBLBody {display:flex;flex-direction: column; width:auto;justify-content: center;width: 49%;padding-left: 1%;}
 
 .projectBLImage {background-image: url(../images/beeLocalImage.png);background-size: 80% auto;background-repeat: no-repeat;background-position-x: 100%;background-position-y: 50%;max-height: 100%;}
@@ -231,7 +231,7 @@ p#instructions{font-size: 16px;margin-top: 4rem;}
 
 
 /* footer */
-#connect {font-size: 32.5px;}
+#connect {font-size: 32.5px;margin-top: 2rem;}
 .backgroundImg.image {background-size: 500%;background-repeat: no-repeat;background-position-y: bottom;margin-bottom: -2px;height: 550px;}
 .footerBottomContainer {flex-direction: column;width: 90%;}
 .footerBlock1 {width: 90%;text-align: left;align-items: center;justify-self: center;justify-content: center;margin: 0 auto;padding-bottom: 2rem;}
