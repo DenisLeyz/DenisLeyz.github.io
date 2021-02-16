@@ -9,8 +9,8 @@ body {background-color: #EDEDEB;}
 li.inline-block {margin:0% 1% 0%;}
 a{color: black;text-decoration: none;cursor: pointer;}
 div.inline-block.logo {width: auto;}
-.logo {width: 23%; padding: 1%;text-align: left;}
-nav { height:105px; width: 87%; padding: 1%;text-align: right;display: inline-block;}
+.logo { padding: 1%;text-align: left;}
+nav { height:105px; width: 100%;text-align: right;display: inline-block;}
 /* ul{width:50%;} */
 header{display: inline-block;margin-bottom: 10rem;}
 .navigation {display: inline-block;width: 100%;}
@@ -20,7 +20,7 @@ a.navi {color: #636266;}
 a#on.active {color: #000000;}
 #active{border-bottom: 4px solid black;}
 .logoImage {width: 85px;height: auto;}
-nav.inline-block {justify-self: right;align-self:right;margin-right: 0%;}
+nav.inline-block {text-align: right;}
 
 
 /* heroimg */
@@ -266,4 +266,4 @@ p#personalSkills {font-size: 16px;padding: 4px 8px;margin-top: 1rem;}
 }
 
 @media only screen and (max-width: 560px){
-nav {width: 70%}}
+nav {width: 75%;}}
