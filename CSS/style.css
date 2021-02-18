@@ -186,7 +186,7 @@ button#resumeDownload:active {top:1px;border:none}
     .projectBImage {background-size:200%}
     .projectBLImage {background-size: 100%}
     h1#connect{padding: 0% 10% 0%;}
-    nav {width: 77%;}
+    nav {max-width: 77%;}
     .resume {display: none;height: 0px;}
 }
 
@@ -266,4 +266,10 @@ p#personalSkills {font-size: 16px;padding: 4px 8px;margin-top: 1rem;}
 }
 
 @media only screen and (max-width: 560px){
-nav {width: 75%;}}
+nav {max-width: 75%;}}
+
+
+@media only screen and (min-width: 1001px){
+nav.inline-block{float: right;max-width: 80%;}
+
+}
